@@ -22,7 +22,7 @@ public class CrimeLab {
         mCrimes = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
             Crime crime = new Crime();
-            crime.setTitle("CRIMEMEMEE");
+            crime.setTitle("CRIME #" + i);
             crime.setSolved(i % 2 == 0);
             mCrimes.add(crime);
         }
